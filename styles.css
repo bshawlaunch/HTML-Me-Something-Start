@@ -1,2 +1,115 @@
-/* Write your CSS here! */
+body, html {
+    height: 100%;
+}
+html {
+    font-family: fantasy;
+}
+h1 {
+    font-size: 70px;
+    margin: 10px;
+}
+.hero-paragraph {
+    margin: -25px;
+    font-size: 20px;
+}
 
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  margin-top: -30px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/20240324_115706.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+/* Place text in the middle of the image */
+.hero-text {  
+  text-align: center;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+body {
+    margin: 8px;
+    display: block;
+    
+}
+article {
+    padding: 20px;
+    font-size: small;
+    border-bottom: 2px solid #3f3d3d;
+}
+
+
+footer {
+
+    padding-top: 20px;
+    text-align: center;
+    color: #3f3d3d;
+    margin: 10px;
+  }
+  
+
+#mainHeading {
+    background-color: red;
+    padding-top: 20px;
+    text-align: center;
+    color: #3f3d3d;
+    font-size: 30px;
+    border-bottom: 2px solid #3f3d3d;
+    
+    height: 1px;
+}
+
+.funParagraph {
+    background-color: green;
+    margin-top:-35px;
+
+}
+
+h3 {
+    font-size: 30px;
+    margin: 0;
+}
+
+p {
+    font-size: 20px;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #3f3d3d;
+    margin-bottom: 20px;
+    padding: 20px;
+  }

@@ -1,47 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <link rel="stylesheet" type="text/css" href="styles.css">
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>HTML Me Something Graded Assignemnt 4</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
-
 <body>
-   <main>
-      <header>
-         <h1>Bradshaw's Travels</h1>
-      </header>
-         <h2>This is a page dedicated to my travels with my dog, Alice.</h2>
-         <p>
-            But first, a little bit about me.... After losing my job during Covid, I dedicated all of my time into learning how to develop apps. 
-            Not being a computer science major, and no real experience to backup my knowledge, I quickly realized I was going to have some trouble
-            landing my first job in the field. I wanted to travel, and I still needed to make money, so I started my own expediting company. I 
-            offered my services to a few different carriers, got a van, and before I knew it, I got my first load. I grabbed the dog, and a few 
-            essentials, and off we went. These are some of the cool places we've visited.
-         </p>
-         <img src="images/placeholder.png" />
-         <h2>California</h2>
-         <img src="images/placeholder.png" />
-         <h2>Texas</h2>
-         <img src="images/placeholder.png" />
-         <h2>Massachusetts</h2>
-         <img src="images/placeholder.png" />
-         <h2>Colorado</h2>
-         <img src="images/placeholder.png" />
-         <h2>Tennessee</h2>
-         <img src="images/placeholder.png" />
-         <h2>Florida</h2>
-         <img src="images/placeholder.png" />
-         <h2>Nevada</h2>
-         <img src="images/placeholder.png" />
-         <h2>Kansas</h2>
-         <img src="images/placeholder.png" />
-         <h2>Arkansas</h2>
-         <img src="images/placeholder.png" />
-         
-      <footer>&copy; 2024 Bradshaw Limited Company</footer>
-   </main>
+    <header id="mainHeading">
+
+     </header>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>Bradshaw's Travels</h1>
+            <p class="hero-paragraph">This is a page dedicated to my travels with my dog, Alice.</p>
+        </div>
+      </div>
+    
+      <main>
+        <p id="testP" class="funParagraph">
+          In here for test purposes</p>
+        <article>
+          <h3>But first, a little bit about me.... </h3>
+          <p>
+          After losing my job during Covid, I dedicated all of my time into learning how to develop apps. 
+          Not being a computer science major, and no real experience to backup my knowledge, I quickly realized I was going to have some trouble
+          landing my first job in the field. I wanted to travel, and I still needed to make money, so I started my own expediting company. I 
+          offered my services to a few different carriers, got a van, and before I knew it, I got my first load. I grabbed the dog, and a few 
+          essentials, and off we went. These are some of the cool places we've visited.
+        </p>
+      </article>
+      <section style="display: flex;">
+        <div style="flex:50;">
+          <h2 style="padding-top: 80px; flex-grow: 5">California</h2>
+          <p>We spent a little time at the Redwoods, and went to a huge dog beach and state park near San Diego</p>
+          
+        </div>
+        
+        <div class="gallery">
+          <a target="_blank" style="flex-grow: 5" href="/images/CaliStatePark.jpg">
+            <img src="/images/CaliStatePark.jpg" alt="California1" width="600" height="400">
+          </a>
+          <div class="desc">State Park in Cali</div>
+        </div>
+        
+        <div class="gallery">
+          <a target="_blank" href="/images/20240324_122902.jpg">
+            <img src="/images/20240324_122902.jpg" alt="Red Wood Tree" width="600" height="400">
+          </a>
+          <div class="desc">Alice in front of Redwood Tree</div>
+        </div>
+        
+        <div class="gallery">
+          <a target="_blank" href="/images/20240324_131955.jpg">
+            <img src="/images/20240324_131955.jpg" alt="River near Red Woods" width="600" height="400">
+          </a>
+          <div class="desc">River near Redwoods</div>
+        </div>
+        
+        <div class="gallery">
+          <a target="_blank" href="images/20240324_120624.jpg">
+            <img src="images/20240324_120624.jpg" alt="Alie and I in front of downed Redwood Tree" width="600" height="400">
+          </a>
+          <div class="desc">Alice in and I in front of the bottom of a downed Redwood Tree</div>
+        </div>
+      </section>
+        
+      <section style="display: flex;">
+        <div style="flex:50;">
+          <h2>Texas</h2>
+          <p>We occasionally stop through Texas to visit friends and family. We like to hit the river when we go down that far south</p>
+        </div>
+        <div style="flex:50;">
+          <div class="gallery">
+            <a target="_blank" style="flex-grow: 5" href="/images/TexasRiver.jpg">
+              <img src="/images/TexasRiver.jpg" alt="TexasRiver" width="600" height="400">
+            </a>
+            <div class="desc">New Braunfels, Texas - Guadalupe River</div>
+          </div>
+          
+          <div class="gallery">
+            <a target="_blank" href="/images/TexasRiver2.jpg">
+              <img src="/images/TexasRiver2.jpg" alt="New Braunfels" width="600" height="400">
+            </a>
+            <div class="desc">Alice checking out a butterfly</div>
+          </div>
+          <div class="gallery">
+            <a target="_blank" href="/images/georgeTownBlueHole.jpg">
+              <img src="/images/georgeTownBlueHole.jpg" alt="Blue Hole Georgetown TX" width="600" height="400">
+            </a>
+            <div class="desc">Blue Hole Georgetown, TX</div>
+          </div>
+        </div>
+      </section>
+      <section style="display: flex;">
+        <div style="flex:50;">
+          <h2>Massachusetts</h2>
+          <p>While in Boston during autumn last year, I decided to stop by Salem to check it out. It happened to be right around Halloween
+            and they had a huge festival going to celebrate the holiday.</p>
+        </div>
+        <div style="flex:50;">
+          <div class="gallery">
+            <a target="_blank" style="flex-grow: 5" href="/images/Salem1.jpg">
+              <img src="/images/Salem1.jpg" alt="Salem Public Library" width="600" height="400">
+            </a>
+            <div class="desc">Salem Public Library</div>
+          </div>
+          <div style="flex:50;">
+            <div class="gallery">
+              <a target="_blank" style="flex-grow: 5" href="/images/Salem2.jpg">
+                <img src="/images/Salem2.jpg" alt="Salem Public Library" width="600" height="400">
+              </a>
+              <div class="desc">Better shot of Salem Public Library</div>
+            </div>
+            <div style="flex:50;">
+              <div class="gallery">
+                <a target="_blank" style="flex-grow: 5" href="/images/Salem3.jpg">
+                  <img src="/images/Salem3.jpg" alt="Salem Mansion" width="600" height="400">
+                </a>
+                <div class="desc">Salem Mansion</div>
+              </div>
+              <div style="flex:50;">
+                <div class="gallery">
+                  <a target="_blank" style="flex-grow: 5" href="/images/Salem4.jpg">
+                    <img src="/images/Salem4.jpg" alt="Witch House" width="600" height="400">
+                  </a>
+                  <div class="desc">Salem Witch House</div>
+                </div>
+      </section>
+
+            <section style="display: flex;">
+        <div style="flex:50;">
+          <h2>Texas</h2>
+          <p>We occasionally stop through Texas to visit friends and family. We like to hit the river when we go down that far south</p>
+        </div>
+        <div style="flex:50;">
+          <div class="gallery">
+            <a target="_blank" style="flex-grow: 5" href="/images/TexasRiver.jpg">
+              <img src="/images/TexasRiver.jpg" alt="TexasRiver" width="600" height="400">
+            </a>
+            <div class="desc">New Braunfels, Texas - Guadalupe River</div>
+          </div>
+          
+          <div class="gallery">
+            <a target="_blank" href="/images/TexasRiver2.jpg">
+              <img src="/images/TexasRiver2.jpg" alt="New Braunfels" width="600" height="400">
+            </a>
+            <div class="desc">Alice checking out a butterfly</div>
+          </div>
+          <div class="gallery">
+            <a target="_blank" href="/images/georgeTownBlueHole.jpg">
+              <img src="/images/georgeTownBlueHole.jpg" alt="Blue Hole Georgetown TX" width="600" height="400">
+            </a>
+            <div class="desc">Blue Hole Georgetown, TX</div>
+          </div>
+        </div>
+      </section>
+      <section style="display: flex;">
+        <div style="flex:50;">
+          <h2>Massachusetts</h2>
+          <p>While in Boston during autumn last year, I decided to stop by Salem to check it out. It happened to be right around Halloween
+            and they had a huge festival going to celebrate the holiday.</p>
+        </div>
+        <div style="flex:50;">
+          <div class="gallery">
+            <a target="_blank" style="flex-grow: 5" href="/images/Salem1.jpg">
+              <img src="/images/Salem1.jpg" alt="Salem Public Library" width="600" height="400">
+            </a>
+            <div class="desc">Salem Public Library</div>
+          </div>
+          <div style="flex:50;">
+            <div class="gallery">
+              <a target="_blank" style="flex-grow: 5" href="/images/Salem2.jpg">
+                <img src="/images/Salem2.jpg" alt="Salem Public Library" width="600" height="400">
+              </a>
+              <div class="desc">Better shot of Salem Public Library</div>
+            </div>
+            <div style="flex:50;">
+              <div class="gallery">
+                <a target="_blank" style="flex-grow: 5" href="/images/Salem3.jpg">
+                  <img src="/images/Salem3.jpg" alt="Salem Mansion" width="600" height="400">
+                </a>
+                <div class="desc">Salem Mansion</div>
+              </div>
+              <div style="flex:50;">
+                <div class="gallery">
+                  <a target="_blank" style="flex-grow: 5" href="/images/Salem4.jpg">
+                    <img src="/images/Salem4.jpg" alt="Witch House" width="600" height="400">
+                  </a>
+                  <div class="desc">Salem Witch House</div>
+                </div>
+      </section>
+     
+      <section style="display: flex;">
+        <div style="flex:50;">
+        <h2>Idaho</h2>
+        <p>
+          We spent a little time in Coeur d'Alene, Idaho. Visited a dog park on the riverfront and mingled with the locals.
+        </p>
+        </div>
+        <div style="flex:50;">
+          <div class="gallery">
+            <a target="_blank" style="flex-grow: 5" href="/images/idaho.jpg">
+              <img src="/images/idaho.jpg" alt="Salem Public Library" width="600" height="400">
+            </a>
+            <div class="desc">Salem Public Library</div>
+          </div>
+          <div style="flex:50;">
+            <div class="gallery">
+              <a target="_blank" style="flex-grow: 5" href="/images/idaho2.jpg">
+                <img src="/images/idaho2.jpg" alt="Salem Public Library" width="600" height="400">
+              </a>
+              <div class="desc">Better shot of Salem Public Library</div>
+            </div>
+            <div style="flex:50;">
+              <div class="gallery">
+                <a target="_blank" style="flex-grow: 5" href="/images/idaho3.jpg">
+                  <img src="/images/idaho3.jpg" alt="Salem Mansion" width="600" height="400">
+                </a>
+                <div class="desc">Salem Mansion</div>
+              </div>
+              <div style="flex:50;">
+                <div class="gallery">
+                  <a target="_blank" style="flex-grow: 5" href="/images/idaho4.jpg">
+                    <img src="/images/idaho4.jpg" alt="Witch House" width="600" height="400">
+                  </a>
+                  <div class="desc">Salem Witch House</div>
+                </div>
+      </seciton>
+      
+      
+  </main>
+  
+  <footer>&copy; 2024 Bradshaw Limited Company</footer>
 </body>
 
 </html>
